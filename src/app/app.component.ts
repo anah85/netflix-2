@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'netflix-app';
-  
+
   public top10:PelisInterface = {
     section: 'Top 10',
       films:[
