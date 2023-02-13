@@ -1,5 +1,5 @@
 import { PelisInterface } from './../../models/PelisInterface';
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-hero',
@@ -7,5 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent {
-  @Input() public films!:PelisInterface
+  @Input() public top5!: PelisInterface;
+
+  constructor(){}
 }

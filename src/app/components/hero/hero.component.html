@@ -1,7 +1,8 @@
 <section class="films">
-    <h2>{{films.section}}</h2>
+    <h2>{{top5.section}}</h2>
     <ul>
-        <li **ngFor="let pelis of films.films"></li>
-        <img src="{{pelis.imagen}}" alt="{{pelis.titulo}}">
+    <li *ngFor="let pelis of top5.films">
+    <img src="{{pelis.imagen}}" alt="{{pelis.titulo}}">
+    </li>
     </ul>
     </section>
